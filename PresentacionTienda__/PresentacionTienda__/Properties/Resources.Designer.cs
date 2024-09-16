@@ -63,6 +63,16 @@ namespace PresentacionTienda__.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _9 {
+            get {
+                object obj = ResourceManager.GetObject("9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Copia_de_MAQUINAS__Capturar__borrar_y_editar____64_x_64_px__2 {
             get {
                 object obj = ResourceManager.GetObject("Copia de MAQUINAS (Capturar, borrar y editar ) (64 x 64 px) 2", resourceCulture);
@@ -73,9 +83,29 @@ namespace PresentacionTienda__.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap guardar {
+            get {
+                object obj = ResourceManager.GetObject("guardar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ICONOS_VMG_2 {
             get {
                 object obj = ResourceManager.GetObject("ICONOS VMG 2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TBD_PROYECTO_FINAL_YJGSVMG {
+            get {
+                object obj = ResourceManager.GetObject("TBD-PROYECTO FINAL-YJGSVMG", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

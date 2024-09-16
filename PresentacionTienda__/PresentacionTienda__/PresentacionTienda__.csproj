@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmAltas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAltas.Designer.cs">
+      <DependentUpon>FrmAltas.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmAltas.resx">
+      <DependentUpon>FrmAltas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMenu.resx">
       <DependentUpon>FrmMenu.cs</DependentUpon>
     </EmbeddedResource>
@@ -85,6 +94,25 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Copia de MAQUINAS %28Capturar, borrar y editar %29 %2864 x 64 px%29 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TBD-PROYECTO FINAL-YJGSVMG.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entidades\Entidades.csproj">
+      <Project>{f04884e7-b122-4b44-b85f-27624df46216}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Manejador\Manejador.csproj">
+      <Project>{312f7f23-8fdf-48d9-a0d2-766634dcc47a}</Project>
+      <Name>Manejador</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
