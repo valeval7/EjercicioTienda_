@@ -79,6 +79,7 @@
             this.btnBaja.Name = "btnBaja";
             this.btnBaja.Size = new System.Drawing.Size(488, 56);
             this.btnBaja.Text = "BAJA";
+            this.btnBaja.Click += new System.EventHandler(this.btnBaja_Click);
             // 
             // btnModificaciones
             // 
