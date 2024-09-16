@@ -64,6 +64,12 @@
     <Compile Include="FrmMenu.Designer.cs">
       <DependentUpon>FrmMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmModificaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModificaciones.Designer.cs">
+      <DependentUpon>FrmModificaciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmAltas.resx">
@@ -74,6 +80,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMenu.resx">
       <DependentUpon>FrmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModificaciones.resx">
+      <DependentUpon>FrmModificaciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -128,6 +137,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ICONO REGRESO1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copia de TBD-PROYECTO FINAL-YJGSVMG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copia de ICONOS VMG-2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

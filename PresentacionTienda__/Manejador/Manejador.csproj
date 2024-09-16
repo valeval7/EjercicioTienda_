@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="ManejadorAltas.cs" />
     <Compile Include="ManejadorBajas.cs" />
+    <Compile Include="ManejadorModificaciones.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

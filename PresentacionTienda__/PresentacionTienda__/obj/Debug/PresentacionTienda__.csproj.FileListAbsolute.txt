@@ -91,3 +91,4 @@ C:\Users\user\Desktop\EjercicioTienda_\PresentacionTienda__\PresentacionTienda__
 C:\Users\user\Desktop\EjercicioTienda_\PresentacionTienda__\PresentacionTienda__\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\user\Desktop\EjercicioTienda_\PresentacionTienda__\PresentacionTienda__\obj\Debug\PresentacionTienda_.FrmBajas.resources
 C:\Users\user\Desktop\EjercicioTienda_\PresentacionTienda__\PresentacionTienda__\obj\Debug\Presenta.5C2EB244.Up2Date
+C:\Users\user\Desktop\EjercicioTienda_\PresentacionTienda__\PresentacionTienda__\obj\Debug\PresentacionTienda_.FrmModificaciones.resources
