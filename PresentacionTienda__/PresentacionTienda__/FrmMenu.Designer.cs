@@ -79,14 +79,12 @@
             this.btnBaja.Name = "btnBaja";
             this.btnBaja.Size = new System.Drawing.Size(488, 56);
             this.btnBaja.Text = "BAJA";
-            this.btnBaja.Click += new System.EventHandler(this.btnBaja_Click);
             // 
             // btnModificaciones
             // 
             this.btnModificaciones.Name = "btnModificaciones";
             this.btnModificaciones.Size = new System.Drawing.Size(488, 56);
             this.btnModificaciones.Text = "MODIFICACIONES";
-            this.btnModificaciones.Click += new System.EventHandler(this.btnModificaciones_Click);
             // 
             // toolStripSeparator2
             // 

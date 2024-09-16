@@ -29,20 +29,6 @@ namespace PresentacionTienda_
             AL.Show();
         }
 
-        private void btnBaja_Click(object sender, EventArgs e)
-        {
-            FrmBajas AL = new FrmBajas();
-            AL.MdiParent = this;
-            AL.Show();
-
-        }
-
-        private void btnModificaciones_Click(object sender, EventArgs e)
-        {
-            FrmModificaciones AL = new FrmModificaciones();
-            AL.MdiParent = this;
-            AL.Show();
-
-        }
+       
     }
 }
