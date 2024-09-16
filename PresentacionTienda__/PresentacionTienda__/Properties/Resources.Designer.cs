@@ -93,6 +93,26 @@ namespace PresentacionTienda__.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ICONO_REGRESO {
+            get {
+                object obj = ResourceManager.GetObject("ICONO REGRESO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ICONO_REGRESO1 {
+            get {
+                object obj = ResourceManager.GetObject("ICONO REGRESO1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ICONOS_VMG_2 {
             get {
                 object obj = ResourceManager.GetObject("ICONOS VMG 2", resourceCulture);
